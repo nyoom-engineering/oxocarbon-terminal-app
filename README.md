@@ -1,6 +1,6 @@
 <div align="center">
 
-# oxocarbon-<app-name>
+# oxocarbon-terminal.app
 
 </div>
 
@@ -17,24 +17,20 @@ Oxocarbon is a set of community ports of IBM's carbon color palette and design p
 
 ## Showcase
 
-<screenshots>
+![neofetch](assets/neofetch.png)
+![colorbars](assets/colorbars.png)
 
 ## Install
 
-- Installation
+1. Download the `.terminal` file with the following command:
 
-## Features (optional)
+```bash
+cd $HOME/Downloads
+curl -O https://raw.githubusercontent.com/nyoom-engineering/oxocarbon-terminal-app/main/oxocarbon-dark.terminal
+```
 
-- Special features and UI tweaks
-
-### Plugin Support (optional)
-
-- What plugins does it support
-
-## FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**\
- A: Run `:help theme`
+2. Go to `Settings -> Profiles`, click the three dots in the bottom left side and them select `import`. From the file picker, select the `.terminal` file in your downloads folder
+3. Click the new profile called oxocarbon-dark and then click `default` on the right of the three dots
 
 ## License
 
