@@ -1,36 +1,41 @@
-<div align="center">
+# <img src="./assets/output-3840x1209-shadow.png">
 
-# oxocarbon-terminal.app
+img1
 
-</div>
+<br>
+<br>
 
-<div align="center">
+img2
 
-[![Stars](https://img.shields.io/github/stars/nyoom-engineering/oxocarbon?color=%23b66467&style=for-the-badge)](https://github.com/nyoom-engineering/oxocarbon/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/nyoom-engineering/oxocarbon?color=%238c977d&style=for-the-badge)](https://github.com/nyoom-engineering/oxocarbon/issues)
-[![License](https://img.shields.io/github/license/nyoom-engineering/oxocarbon?color=%238da3b9&style=for-the-badge)](https://mit-license.org/)
-![Discord Server](https://img.shields.io/discord/1050624267592663050?color=738adb&label=Discord&Color=white&style=for-the-badge)
+<br>
+<br>
 
-</div>
+img3
 
-Oxocarbon is a set of community ports of IBM's carbon color palette and design philosophy to various applications and tooling.
+<br>
+<br>
 
-## Showcase
+Oxocarbon is a High contrast accessible colorscheme inspired by IBM Carbon. It delivers class-leading readability without strain by adhering to WCAG 2.1 guidelines
 
-![neofetch](assets/neofetch.png)
-![colorbars](assets/colorbars.png)
+## Compatibility
+
+The oxocarbon colorscheme does not traditionally use shades of yellow or green nor bright colors, as it caters to those with protanopia and favors bolding for distinction over brightness. However, we understand some may need a strict ansi colorscheme. Thus, three variant are provided:
+
+- `oxocarbon.terminal` the traditional gray colorscheme you know and love
+- `oxocarbon-oled.terminal` the same as `oxocarbon` but with a pure black background
+- `oxocarbon-compatibility.terminal` a version of `oxocarbon` that introduces green, yellow, and strictly follows ansi standards
 
 ## Install
 
-1. Download the `.terminal` file with the following command:
+1. Download a `.terminal` file with the following command where <oxocarbon> is the name of the colorsceme you would like to download
 
 ```bash
 cd $HOME/Downloads
-curl -O https://raw.githubusercontent.com/nyoom-engineering/oxocarbon-terminal-app/main/oxocarbon-dark.terminal
+curl -O https://raw.githubusercontent.com/nyoom-engineering/oxocarbon-terminal-app/main/<oxocarbon>.terminal
 ```
 
 2. Go to `Settings -> Profiles`, click the three dots in the bottom left side and them select `import`. From the file picker, select the `.terminal` file in your downloads folder
-3. Click the new profile called oxocarbon-dark and then click `default` on the right of the three dots
+3. Click the profile of your choice, optionally set it as `default` using the right of the three dots
 
 ## License
 
